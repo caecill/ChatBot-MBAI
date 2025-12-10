@@ -7,7 +7,7 @@ from deteksi_resiko import detect_risk
 
 
 # API KEY
-GOOGLE_API_KEY = "AIzaSyCgq1GVZuS51v7xzILQpSZ0aiYpPYjjiRA"
+GOOGLE_API_KEY = "YOUR GOOGLE API KEY"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Load model (versi baru)
