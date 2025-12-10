@@ -40,7 +40,8 @@ Pastikan sudah menginstall:
 ### Konfigurasi API Key
 Edit file chatbot.py dan masukkan Google API Key Kamu pada baris code dibawah:
   ```bash
-  os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY_HERE"
+  GOOGLE_API_KEY = "YOUR GOOGLE API KEY"
+  os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
   ```
 Kamu bisa mendapatkannya dari:
 https://aistudio.google.com/
